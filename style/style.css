@@ -84,17 +84,34 @@ table{
     box-shadow: 1px 1px 2px 2px rgb(220, 220, 220);
     color: whitesmoke;
 }
+.table-body tr td:hover{
+    cursor: pointer;
+    box-shadow: 1px 1px 2px 2px rgb(91, 91, 91);
+    transition: 0.8s;
+}
 .table-body tr:nth-child(1) td:nth-child(1){
     background-color: rgb(189, 189, 189);
+}
+.table-body tr:nth-child(1) td:nth-child(1):hover{
+    box-shadow: 1px 1px 2px 2px rgb(220, 220, 220);
 }
 .table-body tr:nth-child(5) td:nth-child(n+5){
     background-color: rgb(189, 189, 189);
 }
+.table-body tr:nth-child(5) td:nth-child(n+5):hover{
+    box-shadow: 1px 1px 2px 2px rgb(220, 220, 220);
+}
 .table-body tr:nth-child(n+2) td:nth-child(1){
     background-color: red;
 }
+.table-body tr:nth-child(n+2) td:nth-child(1):hover{
+    box-shadow: 1px 1px 2px 2px rgb(255, 78, 78);
+}
 .table-body tr:nth-child(n) td:nth-child(7){
     background-color: green;
+}
+.table-body tr:nth-child(n) td:nth-child(7):hover{
+    box-shadow: 1px 1px 2px 2px rgb(0, 172, 0);
 }
 .table-body tr:nth-child(5) td:nth-child(7){
     background-color: rgb(189, 189, 189);
